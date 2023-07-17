@@ -1,12 +1,99 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>willpang | Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="./assets/css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello World</h1>
-    <a href="./public/resume.html">Check My Resume HERE!</a>
+    <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <span class="fs-4">William Pangiawan</span>
+        </a>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">About</a></li>
+            <li class="nav-item"><a href="./public/resume.html" class="nav-link">Resume</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Experience</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+    </header>
+    </div>
+
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse g-5 py-5 flex-center">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./assets/images/profile.jpeg" class="d-block mx-lg-auto img-fluid rounded-circle" alt="Bootstrap Themes" width="350" height="250" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">About Me</h1>
+                <p class="lead">Hi, I am William. A programmer. Mainly works in web development, data, and cloud environment. I love to create things that generate value and improve the quality of human life.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">My Interest</h2>
+    
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/images/boardgame.png');">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Games, Board Games, Strategical Games</h3>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/images/badminton.png');">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Sports, Especially Badminton</h3>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/images/nasi-goreng.png');">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Good Foods, Of Course!</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="my-5">
+        <div class="p-5 text-center">
+            <div class="container py-5">
+                <h1 class="text-body-emphasis">Get In Touch</h1>
+                <p class="col-lg-8 mx-auto lead">
+                    Love to fun stuffs and create values? Let's talk about how amazing they are! We can code hard play hard!
+                </p>
+                <a class="btn btn-primary" href="https://www.linkedin.com/in/william-pangiawan/" role="button">Contact Me</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Design by William Pangiawan</span>
+            </div>
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/william-pangiawan/" target="_blank" rel="noopener noreferrer"><img src="./assets/images/linkedin.svg" alt="linkedin profile" width="24" height="24"/></a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
